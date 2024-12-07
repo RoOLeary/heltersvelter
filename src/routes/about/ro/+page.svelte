@@ -58,7 +58,6 @@
 
 <div class="text-column">
 	
-
 	<!-- Dynamic sl-alert -->
 	{#if alertMessage.open}
 		<sl-alert variant={alertMessage.variant} open>

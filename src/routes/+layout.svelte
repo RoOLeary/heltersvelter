@@ -14,13 +14,14 @@
 	
 	import Header from './Header.svelte';
 	import '../app.css';
+	import Breadcrumbs from './Breadcrumbs.svelte';
 
 	let { children } = $props();
 </script>
 
 <div class="app">
 	<Header />
-
+	<Breadcrumbs />
 	<main>
 		{@render children()}
 	</main>
